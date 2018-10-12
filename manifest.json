@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "version":"1.0",
+    "name":"CheckIN",
+
+    "description":"CheckIn Password Manager for Saving Your Password",
+    
+    "icons":{
+        "48":"icon/48.png"
+    },
+
+    "browser_action": {
+        "default_icon":"icon/16.png",
+        "default_title":"CHECKIN",
+        "default_popup":"html/login_popup.html"
+    },
+
+    "permissions":[
+        "notifications"
+    ]
+
+
+}
